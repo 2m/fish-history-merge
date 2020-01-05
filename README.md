@@ -8,10 +8,12 @@ Original implementations by @farcaller from https://github.com/fish-shell/fish-s
 
 ## Instalation
 
-If using [fundle](https://github.com/danhper/fundle) add the following to `~/.config/fish/config.fish`:
+If using [fundle](https://github.com/danhper/fundle) add the following to `~/.config/fish/config.fish` before `fundle init`:
 
 ```fish
 fundle plugin '2m/fish-history-merge'
 ```
 
-Reload fish shell and then run `fundle install`.
+then reload fish shell and then run `fundle install`.
+
+If using [fisher](https://github.com/jorgebucaran/fisher) run `fisher add 2m/fish-history-merge`.
